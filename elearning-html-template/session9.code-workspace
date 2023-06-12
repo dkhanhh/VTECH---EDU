@@ -1,0 +1,55 @@
+{
+	"folders": [
+		{
+			"path": "D:/AngularJS/session9"
+		},
+		{
+			"path": "D:/AngularJS/session10"
+		},
+		{
+			"path": "D:/AngularJS/session7"
+		},
+		{
+			"path": "D:/AngularJS/Test"
+		},
+		{
+			"path": "D:/AngularJS/prj2"
+		},
+		{
+			"path": "D:/AngularJS/prj3"
+		},
+		{
+			"path": "D:/AngularJS/Project1"
+		},
+		{
+			"path": "D:/AngularJS/Custom prj1"
+		},
+		{
+			"path": "D:/AngularJS/Project2"
+		},
+		{
+			"path": "D:/AngularJS/calculator"
+		},
+		{
+			"path": "D:/AngularJS/Poly"
+		},
+		{
+			"path": "D:/AngularJS/CartPrj"
+		},
+		{
+			"path": "D:/AngularJS/LungCode"
+		},
+		{
+			"path": "D:/AngularJS/cartPj"
+		},
+		{
+			"path": "D:/AngularJS/cart"
+		},
+		{
+			"path": "D:/AngularJS/demo"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "demo"
+	}
+}
