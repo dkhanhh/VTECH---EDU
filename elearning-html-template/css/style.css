@@ -1,5 +1,5 @@
 /********** Template CSS **********/
-body {
+body{
     background-image: url(../img/b.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -177,27 +177,25 @@ body {
     }
 }
 
-
-/*** Header swiper ***/
+/* swiper */
 :root {
     --swiper-navigation-color: #ffffff;
     --swiper-theme-color: #ef233c;
-}
-
-.swiper {
+  }
+  
+  .swiper-start {
     width: 100%;
     height: 80vh;
     height: 80svh;
     min-height: 320px;
     background-color: #46677b;
-}
-
-.swiper-slide {
+  }
+  
+  .swiper-slider {
     font-size: 18px;
     display: flex;
-}
-
-.swiper-slide::after {
+  }
+  .swiper-slider::after {
     display: block;
     content: "";
     position: absolute;
@@ -206,9 +204,9 @@ body {
     width: 100%;
     height: 100%;
     background-image: linear-gradient(359deg, #2b2d42 0%, rgba(40, 42, 62, 0.9375) 6.25%, rgba(38, 39, 58, 0.875) 12.5%, rgba(35, 37, 54, 0.8125) 18.75%, rgba(32, 34, 50, 0.75) 25%, rgba(30, 31, 45, 0.6875) 31.25%, rgba(27, 28, 41, 0.625) 37.5%, rgba(24, 25, 37, 0.5625) 43.75%, rgba(21, 23, 33, 0.5) 50%, rgba(19, 20, 29, 0.4375) 56.25%, rgba(16, 17, 25, 0.375) 62.5%, rgba(13, 14, 21, 0.3125) 68.75%, rgba(11, 11, 17, 0.25) 75%, rgba(8, 8, 12, 0.1875) 81.25%, rgba(5, 6, 8, 0.125) 87.5%, rgba(3, 3, 4, 0.0625) 93.75%, rgba(0, 0, 0, 0) 100%);
-}
-
-.title {
+  }
+  
+  .titleslide {
     padding: 0 10vw;
     position: absolute;
     top: 50%;
@@ -216,21 +214,18 @@ body {
     width: 100%;
     z-index: 1;
 
-}
-
-.title h2 {
+  }
+  .titleslide h2{
     color: #fff;
-}
-
-.title__text {
+  }
+  .title__text {
     letter-spacing: -2px;
     font-size: clamp(3rem, 0.3864rem + 13.0682vw, 7rem);
     margin-bottom: 0;
     margin-top: 0;
     position: relative;
-}
-
-.title__text::after {
+  }
+  .title__text::after {
     position: absolute;
     top: 100%;
     content: "";
@@ -238,30 +233,14 @@ body {
     width: 100px;
     height: 0.25em;
     background-color: #ef233c;
-}
-
-/*
+  }
+  
+  /*
     Style up the image behind each slide
   */
-.background-image {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}
 
-.background-image__image {
-    display: block;
-    width: 100%;
-    height: 100%;
-    -o-object-fit: cover;
-    object-fit: cover;
-    opacity: 0.8;
-    mix-blend-mode: luminosity;
-}
+  
 
-/** 
 
 
 
@@ -875,8 +854,8 @@ body {
 }
 
 .appmobile-right img {
-    width: 204px;
-    height: 254px;
+    width: 140px;
+    height: 160px;
 }
 
 .appmobile-left a img {
@@ -1098,8 +1077,7 @@ body {
 .gioithieusanpham {
     margin: 60px;
 }
-
-.button-card-gioithieu {
+.button-card-gioithieu{
     position: absolute;
     right: 30px;
     bottom: 18px;
@@ -1107,93 +1085,84 @@ body {
     border-radius: 8px;
     font-size: 18px;
     background-color: #fff;
-    box-shadow: #bb4b4b 3px 3px;
-    ;
+    box-shadow: #bb4b4b 3px 3px;;
 }
 
-.button-card-gioithieu:hover {
+.button-card-gioithieu:hover
+{
     background-color: #000;
     transform: scale(1.1);
 }
 
-.button-card-gioithieu a:hover {
+.button-card-gioithieu a:hover{
     color: #fff;
 
 }
 
-.button-card-gioithieu a {
+.button-card-gioithieu a{
     color: #000;
     padding: 10px;
 }
-
-.bottom-card:hover {
+.bottom-card:hover{
     transform: scale(1.1);
     transition: all 1s;
 }
 
-.page-lienhe-top {
+.page-lienhe-top{
     padding: 30px 30px 30px 80px;
 }
-
-.page-lienhe-top input {
+.page-lienhe-top input{
     color: #111111;
     background-color: #ffffff;
 }
 
-.page-lienhe-bottom {
+.page-lienhe-bottom{
     padding-top: 50px;
     padding-left: 78px;
 
 }
 
 
-.page-lienhe-bottom-title h3 {
+.page-lienhe-bottom-title h3{
     color: #fff;
     text-transform: uppercase;
     font-size: 23px;
 }
-
-.form-lienhe {
+.form-lienhe{
     width: 55%;
 }
-
-.lienhe-social-icon {
+.lienhe-social-icon{
     padding: 10px;
     background-color: #fff;
     margin-right: 40px;
     border-radius: 30%;
     float: left;
 }
-
-.lienhe-social-icon:hover {
+.lienhe-social-icon:hover{
     transform: scale(1.1);
     transition: all 0.5s;
     cursor: pointer;
 }
-
-.lienhe-social-icon a i {
+.lienhe-social-icon a i{
     color: #000;
     padding: 6px;
 }
 
 
 
-.page-lienhe {
+.page-lienhe{
     position: relative;
 }
-
 .page-lienhe p {
     padding: 20px;
     margin: 0;
     color: #000;
 }
-
-.page-lienhe h4 {
+.page-lienhe h4{
     margin: 0;
     padding: 10px;
 }
-
-.page-lienhe-bottom-info {
+.page-lienhe-bottom-info{
     position: absolute;
     top: 130px;
     right: 160px;
@@ -1201,20 +1170,19 @@ body {
     border: 1px solid #000;
     text-align: center;
 }
-
-.page-lienhe-bottom-info-content {
+.page-lienhe-bottom-info-content{
     padding: 10px;
 }
-
-.page-lienhe-bottom-info h4 {
+.page-lienhe-bottom-info h4{
     text-transform: uppercase;
 }
 
-.author-lienhe {
+.author-lienhe{
     margin-top: 28px;
     text-align: center;
 }
-
-.page-lienhe-location {
+.page-lienhe-location{
     margin-top: 36px;
 }
+
+
